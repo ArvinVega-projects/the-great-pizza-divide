@@ -6,7 +6,7 @@ import pandas as pd
 import string
 
 # This is used for the US website, the Canadian website is structured
-# differently..
+# differently.
 url = 'https://locations.pizzahut.com/ny/new-york'
 page = requests.get(url)
 
