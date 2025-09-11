@@ -44,8 +44,11 @@ time.sleep(5)
 print("working up to here x3.")
 
 
+# Address information can be separated by commas.
 split_strings = [address.split(',') for address in addresses]
+# Set our column header names.
 column_headers = ["Address Line 1", "City", "Province", "Postal Code"]
+# Create dataframe and add to excel file.
 df = pd.DataFrame(split_strings, columns=column_headers)
 df.to_excel("ca_addresses.xlsx")
 driver.quit()
