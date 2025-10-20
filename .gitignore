@@ -1,4 +1,4 @@
 /test.py
-/us_addresses.xlsx
-/ca_addresses.xlsx
+/not_the_api_token.py
+*.xlsx
 /chromedriver

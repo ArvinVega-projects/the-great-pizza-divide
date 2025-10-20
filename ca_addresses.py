@@ -81,10 +81,4 @@ df_merged.to_excel("ca_addresses.xlsx")
 
 print(df_merged)
 
-
-
-
-# Create dataframe and add to excel file.
-# df = pd.DataFrame(split_strings, columns=column_headers)
-# df.to_excel("ca_addresses.xlsx")
 driver.quit()
