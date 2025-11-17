@@ -2,3 +2,5 @@
 /not_the_api_token.py
 *.xlsx
 /chromedriver
+/__pycache__
+*.pyc
